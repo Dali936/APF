@@ -1,7 +1,6 @@
 from PromptModels.pointnet import PointNet
 from PromptModels.pointnetv2 import PointNetv2
 from PromptModels.utils import *
-# from PromptModels.pointnet import *
 
 
 class APF(nn.Module):
