@@ -62,7 +62,6 @@ def setup_seed(seed):  # setting up the random seed
 
 def test(model, loader, num_class=40):
     mean_correct = []
-    # num_class 行，3列
     class_acc = np.zeros((num_class, 3))
     classifier = model.eval()
     classifier = classifier.to('cuda')
